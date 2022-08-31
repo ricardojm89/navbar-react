@@ -6,25 +6,25 @@ const Navbar = () => {
         <div className="container">
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"> <img src={logo} width="48" alt="Burger" /></a>
+                <a className="nav-link active" aria-current="page" href="/"> <img src={logo} width="48" alt="Burger" /></a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link link_header" >Pedi te combo favorito</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link_header" href="#">Menu</a>
+                    <a className="nav-link link_header" href="/">Menu</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link_header" href="#">Cupones</a>
+                    <a className="nav-link link_header" href="/">Cupones</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link_header" href="#">Restaurantes</a>
+                    <a className="nav-link link_header" href="/">Restaurantes</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link_header" href="#">Noverdades</a>
+                    <a className="nav-link link_header" href="/">Noverdades</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link_header" href="#">Delivery</a>
+                    <a className="nav-link link_header" href="/">Delivery</a>
                 </li>
             </ul>
         </div>
